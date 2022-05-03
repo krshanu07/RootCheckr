@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Root Checkr</string>
+    <string name="device_heading">Device</string>
+    <string name="brand_heading">Brand</string>
+    <string name="manufacturer_heading">Manufacturer</string>
+    <string name="model_heading">Model</string>
+    <string name="android_version_heading">Android Version</string>
+    <string name="root_status_heading">Root Check Status</string>
+    <string name="rooted">Root Access Found</string>
+    <string name="not_rooted">No Root Access Found</string>
+    <string name="bootloader_heading">Bootloader</string>
+    <string name="display_heading">Display</string>
+    <string name="verify_root_status">Verify Root Status</string>
+    <string name="verify_button_text">Verify</string>
+    <string name="image">Image</string>
+    <string name="action_switch_layout">Action Switch Layout</string>
+    <string name="android">Android %s</string>
+    <string name="fingerprint_heading">Fingerprint</string>
+    <string name="hardware_heading">Hardware</string>
+    <string-array name="tabs">
+        <item>Root Info</item>
+        <item>Device Info</item>
+    </string-array>
+</resources>

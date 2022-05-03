@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RootStatusFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp">
+
+            <ImageView
+                android:id="@+id/device_image"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:src="@drawable/ic_baseline_smartphone_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/verify_root_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verify_root_status"
+                android:paddingTop="12dp"
+                android:textSize="16sp"
+                app:layout_constraintStart_toEndOf="@id/device_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Device Info"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/verify_root_status"
+                app:layout_constraintStart_toEndOf="@id/device_image"/>
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Android Version"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/device"
+                app:layout_constraintStart_toEndOf="@id/device_image"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/verify_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/verify_button_text"
+                android:textColor="@color/primary_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+</FrameLayout>

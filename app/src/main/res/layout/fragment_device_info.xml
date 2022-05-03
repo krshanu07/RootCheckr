@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeviceInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="12dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" android:background="#eceff1">
+                    <TextView
+                        android:id="@+id/device_heading"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="@string/device_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/device_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" >
+                    <TextView
+                        android:id="@+id/brand_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/brand_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/brand_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" android:background="#eceff1">
+                    <TextView
+                        android:id="@+id/manufacturer_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/manufacturer_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/manufacturer_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp">
+                    <TextView
+                        android:id="@+id/Model_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/model_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/model_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" android:background="#eceff1">
+                    <TextView
+                        android:id="@+id/androidVer_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/android_version_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/androidVer_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp">
+                    <TextView
+                        android:id="@+id/bootloader_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bootloader_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/bootloader_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" android:background="#eceff1">
+                    <TextView
+                        android:id="@+id/display_heading"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="@string/display_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/display_name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp">
+                    <TextView
+                        android:id="@+id/fingerprint_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fingerprint_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/fingerprint_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+                <TableRow android:paddingHorizontal="5dp" android:paddingVertical="10dp" android:background="#eceff1">
+                    <TextView
+                        android:id="@+id/hardware_heading"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hardware_heading"
+                        android:layout_gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/hardware_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"/>
+                </TableRow>
+            </TableLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
