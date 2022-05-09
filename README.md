@@ -1,1 +1,1 @@
-# RootCheckr
+# A Simple RootCheckr App
