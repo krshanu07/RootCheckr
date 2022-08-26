@@ -20,7 +20,7 @@ Check Root | Device Info | Dark Mode
     Apache 2.0 License
 
 
-    Copyright 2021 Sameer Nawaz
+    Copyright 2022 Kumar Shanu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
